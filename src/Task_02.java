@@ -1,0 +1,12 @@
+public class Task_02 {
+    public static void main(String[] args) {
+        System.out.println("2");
+        int n = 865;
+        int x = n/100; //8
+        int y = n%10; //5
+        int z = n/10;//86
+        int zs = z%10; //6
+        int result = x+y+zs;
+        System.out.println(result);
+    }
+}
